@@ -22,7 +22,7 @@ public class Pair<A, B> {
     private B second;
 
     private Pair(A first, B second) {
-        super();
+        //super();
         this.first = first;
         this.second = second;
     }
@@ -56,7 +56,6 @@ public class Pair<A, B> {
     public B getSecond() {
         return second;
     }
-
     public static <A, B> Pair<A, B> of(A first, B second) {
         return new Pair<>(first, second);
     }
